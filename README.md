@@ -22,6 +22,8 @@ We'll be using api based on https://api.uomg.com/doc-qq.info.html
 
 ## Requirements
 
+![image](https://user-images.githubusercontent.com/23466885/168100237-86f0e1ab-181b-4de0-a6dc-e8070b5f40bb.png)
+
 - Realize the input QQ number to query the basic information of QQ instantly (only enter the legitimate QQ number)
 
 - Query the QQ avatar, QQ nickname and QQ number (see the renderings) correctly
