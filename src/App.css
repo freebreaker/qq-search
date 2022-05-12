@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 10vh 0;
 }
 
 .App-logo {
@@ -35,4 +36,105 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App .search {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.App .warning {
+  color: red;
+  font-size: 0.6rem;
+  margin-bottom: 18px;
+}
+
+.App .search input {
+  padding: 4px 2px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+  margin-left: 6px;
+}
+
+.App .search .search-input-warning {
+  border-bottom: 1px solid red;
+}
+.input-warning:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid red;
+}
+
+.App .profile {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.App .profile .loading-mask {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 14px;
+  justify-content: center;
+  background-color: white;
+}
+
+.App .profile .error-mask {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 14px;
+  justify-content: center;
+  background-color: white;
+}
+
+.App .profile .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  border-radius: 14px;
+  border: 2px solid;
+  position: relative;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.App .profile .box .avatar {
+  border-radius: 50%;
+  width: 60px;
+  margin-right: 16px;
+}
+
+.App .profile .box .message {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.App .profile .box .message .number {
+  color: gray;
 }
