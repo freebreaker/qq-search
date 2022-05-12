@@ -22,25 +22,25 @@ We'll be using api based on https://api.uomg.com/doc-qq.info.html
 
 ## Requirements
 
-- `Realize the input QQ number to query the basic information of QQ instantly (only enter the legitimate QQ number)`
+- Realize the input QQ number to query the basic information of QQ instantly (only enter the legitimate QQ number)
 
-- `Query the QQ avatar, QQ nickname and QQ number (see the renderings) correctly`
+- Query the QQ avatar, QQ nickname and QQ number (see the renderings) correctly
 
-- `Query error display error prompt (style free play)`
+- Query error display error prompt (style free play)
 
-- `There needs to be a request status prompt (e.g. loading, the style is free to play)`
+- There needs to be a request status prompt (e.g. loading, the style is free to play)
 
 
 ## Notes on project
 
-- `You need to use typescript`
+- You need to use typescript
 
-- `You can not use third party UI libraries`
+- You can not use third party UI libraries
 
-- `You can use a library of lightweight tools such as Axios, Lodash, etc`
+- You can use a library of lightweight tools such as Axios, Lodash, etc
 
-- `You need to think about how to do it better and more carefully (think about what you usually consider when you do projects), but also be careful not to overthink`
+- You need to think about how to do it better and more carefully (think about what you usually consider when you do projects), but also be careful not to overthink
 
-- `If you need to use third-party components, you must use third-party components with elegance`
+- If you need to use third-party components, you must use third-party components with elegance
 
-- `Keep the code clean`
+- Keep the code clean
